@@ -12,25 +12,17 @@ body {
   position: relative;
 }
 
-header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-header img {
-  width: 180px;
-  height: auto;
-  margin-bottom: -10px;
-}
-
 .social-buttons {
   display: flex;
   flex-direction: column;
-  gap: 15px;
   align-items: center;
+  gap: 15px; /* المسافة بين العناصر */
   margin-top: 20px;
+}
+
+.social-buttons .logo {
+  width: 100px; /* حجم الشعار */
+  height: auto;
 }
 
 .social-button {
